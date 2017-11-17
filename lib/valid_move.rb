@@ -1,4 +1,4 @@
-def position?(board, index)
+def position_taken?(board, index)
   if index == " " || index == "" || index == nil
     return false
   else
